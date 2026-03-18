@@ -1,0 +1,10 @@
+users can make posts
+
+create users
+login and regiser
+logout
+post create
+like post
+post delete only who have access to post 
+
+

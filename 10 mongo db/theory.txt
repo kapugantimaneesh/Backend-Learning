@@ -1,0 +1,40 @@
+data storage:
+where we store all the data of all the users 
+database where it can store images,videos,all
+ 
+types of database
+sql | nosql
+sql this is used to store data in format of tables 
+nosql this contains objects{} 
+{
+    age:25,
+    name:harsh
+}
+mongo db is a nosql
+
+what and why
+why is mongo db
+to store data
+
+so main how many servers are in backend 2 serveers
+one is application servers-
+handle all routes and all login,logout all except data
+other is database server-
+we send to we respond -> application server -> database server -> application server -> respond back
+so a contains data related to 
+customers
+products
+sales
+expired products.....
+so all these are called collections of a 
+
+database->collections->document
+ 
+inside of customers you select some one its called document
+
+--------------code----------------
+CODE                DATABASE
+mongoose.connect -> database created
+model create     -> collection created
+CREATE           -> documents created
+

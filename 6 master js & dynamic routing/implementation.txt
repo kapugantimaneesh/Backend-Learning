@@ -1,0 +1,31 @@
+initalize a project with npm
+install express
+dynamic routing:-
+    dynamic routing
+    how to take data comming from frontend at backend route
+
+
+setting up parsers for form //app.use(express.json()) and other one is parsers
+
+setting up ejs for ejs pages
+diff between ejs and html html directly gives you the output but in ejs you can make calculation like <h1>hey <%=2+2%></h1>
+steps:
+npm i ejs
+set up ejs as a view engine 
+
+setting up public static files
+static files are images,css and frontend vanilla js 
+app.use(express.static(path.join(__dirname, "public")));
+
+now how to do dynamic routing
+we genarally see some routes which has some differnce like 
+/author/harshitha
+/author/harsh
+/author/maneesh
+
+first go to browser
+write url which you want to 
+now create the url
+send some response for that one
+now you need to change same url to dynamic add : in route which need to be dynamic
+you can see output in req.params

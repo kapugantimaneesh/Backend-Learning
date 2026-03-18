@@ -1,0 +1,39 @@
+authentication and authorization
+
+
+before giving user profile we need to check who he is(validate the user is he correct using mail,pass)
+authentication
+
+
+when you are a correct user so the user want to change price of a product so then we will check whether he have permission or rights to perform the task
+authorization
+
+server will every time forget who you are so every time for each task it will ask who you are 
+
+
+when browser send request to server and server send the profile to the browser and the sever ask to prove that who he is so you will have a string at the server and you will send that to frontend so they will be saved in browser so when ever we send the request again this will be send with it and  used by the server
+
+
+first of all we need to learn some things 
+i) how to set cookie 
+ii) how we use bcrypt for encryption and decryption
+iii) what is jwt and how data is stored in it 
+
+
+npm i jsonwebtoken
+npm i bcrypt
+npm i cookie-parser
+
+i)
+res.cookie() to send
+req.cookie to recive use cookie-parser
+
+ii)
+in case of bcrypt first we make salt randome string then we make a hash we change the password then we combine both salt and hash this is encrypted password
+
+
+iii) jwt is made of 3 parts
+header:data relateed to algo
+payload: data of ours
+verify signature:signature data
+    

@@ -1,0 +1,4 @@
+if we have some products these are saled by many shops so in this case we will add an array of products in the purticular trader this we call as embedding 
+mainly 2
+referenceing- create an id and link it to that one 
+embedding- in this one we store the array of products in the same thing 
